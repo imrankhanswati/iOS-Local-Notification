@@ -25,5 +25,6 @@ public class TestSceneButtonController : MonoBehaviour
     public void CancelAllNotification()
     {
         LocalNotification.Instance.CancelScheduleNotification();
+        Debug.Log("will cancel all notifications.");
     }
 }
